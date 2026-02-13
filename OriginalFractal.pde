@@ -4,6 +4,7 @@ final float sin = 0.8660254;
 void setup() {
   size(800, 800);
   background(135, 205, 235);
+  noLoop();
 }
 
 void draw() {
@@ -30,5 +31,6 @@ public void fractal(float cx, float cy, float len) {
     }
   }
 }
+
 
 
