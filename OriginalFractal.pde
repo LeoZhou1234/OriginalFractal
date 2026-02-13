@@ -1,5 +1,5 @@
-float cos = (float)Math.cos(Math.toRadians(60));
-float sin = (float)Math.sin(Math.toRadians(60));
+final float cos = 0.5;
+final float sin = 0.8660254;
 
 void setup() {
   size(800, 800);
@@ -30,4 +30,5 @@ public void fractal(float cx, float cy, float len) {
     }
   }
 }
+
 
