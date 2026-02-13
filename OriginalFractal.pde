@@ -3,6 +3,7 @@ float sin = (float)Math.sin(Math.toRadians(60));
 
 void setup() {
   size(800, 800);
+  background(135, 205, 235);
 }
 
 void draw() {
@@ -29,3 +30,4 @@ public void fractal(float cx, float cy, float len) {
     }
   }
 }
+
